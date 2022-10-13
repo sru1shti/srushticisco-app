@@ -4,7 +4,7 @@ services:
     image: srushtiday4:v001
     build: 
      context: .
-     dockerfile: day4.dockerfile
+     dockerfile: Dockerfile.dockerfile
     container_name: srushtiday4
     ports:
     - 1458:80
