@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  srushti-html-day4: #name of service
+    image: srushtiday4:v001
+    build: 
+     context: .
+     dockerfile: day4.dockerfile
+    container_name: srushtiday4
+    ports:
+    - 1458:80
